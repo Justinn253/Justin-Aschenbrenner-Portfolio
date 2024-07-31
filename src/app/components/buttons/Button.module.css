@@ -1,0 +1,63 @@
+.hoverButtonCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  gap: 8px;
+  height: 96px;
+  transition: color 500ms;
+}
+.hoverButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--component-color-hover);
+  padding: 1rem;
+  height: 64px;
+  width: 64px;
+  border-radius: 64px;
+  font-size: 12px;
+  transition: border-radius 500ms, height 500ms, border 500ms;
+
+  &:hover {
+    height: 48px;
+    border-radius: 0;
+    cursor: pointer;
+    border: 3px solid var(--component-color-hover-2);
+  }
+}
+
+.headerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+  height: 100%;
+  background-color: var(--component-color);
+  user-select: none;
+  font-size: 16px;
+  line-height: 20px;
+  transition: background 200ms, color 200ms, padding 200ms;
+
+
+  &:hover {
+    background-color: var(--component-color-hover);
+    cursor: pointer;
+    color: var(--font-color-2);
+    padding: 0 32px;
+  }
+
+  &:active {
+    background-color: var(--component-color-click);
+    cursor: pointer;
+  }
+}
+
+
+.vis {
+  display: block;
+}
+
+.nvis {
+  display: none;
+}

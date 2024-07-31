@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-height: 800px;
+  margin-top: 6rem;
+  height: 100%;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.left {
+  max-width: 45%;
+  min-width: 360px;
+  max-height: 800px;
+}
+
+.right {
+  max-width: 45%;
+  min-width: 360px;
+  max-height: 800px;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.right::-webkit-scrollbar {
+  display: none;
+}
+
+.sectional {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 3rem;
+  padding: 0 2rem;
+}
+
+.sb {
+  flex-grow: 1;
+  height: 0;
+  border-bottom: 1px solid var(--component-color-2);
+}

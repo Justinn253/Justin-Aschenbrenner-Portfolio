@@ -1,0 +1,82 @@
+.experienceContainer {
+  display: flex;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition: background 200ms, box-shadow 200ms;
+  &:hover {
+    background-color: var(--component-color-2);
+    box-shadow: 2px 2px 8px var(--component-shadow);
+
+    .left {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-flow: column;
+      padding: 1rem;
+      border-right: 1px solid var(--component-color-3);
+      width: 30%;
+    }
+  }
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column;
+  padding: 1rem;
+  border-right: 1px solid var(--component-color-2);
+  width: 30%;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-flow: column;
+  padding: 1rem 1rem 1rem 2rem;
+  width: 70%;
+}
+
+.experienceJob {
+  font-size: 20px;
+  color: var(--font-color-2);
+}
+
+.experienceTime {
+  font-size: 14px;
+  color: var(--font-color-3);
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.experienceTitle {
+  font-size: 18px;
+  color: var(--font-color-2);
+  line-height: 22px;
+}
+
+.experienceDescription {
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+.experienceSkills {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.experienceSkillItem {
+  background-color: var(--button-color);
+  color: var(--font-color-2);
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 16px;
+}

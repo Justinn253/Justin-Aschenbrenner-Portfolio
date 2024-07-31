@@ -1,0 +1,10 @@
+.aboutContainer {
+  padding: 2rem 4rem;
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition: background 200ms;
+  &:hover {
+    background-color: var(--component-color-2);
+  }
+}

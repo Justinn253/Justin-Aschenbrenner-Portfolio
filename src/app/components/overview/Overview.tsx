@@ -17,7 +17,7 @@ const Overview = () => {
       <div className={styles.descriptionContainer}>
         <div className={styles.descriptionHeader}>
           <h1 className={styles.h1}>Justin Aschenbrenner</h1>
-          <h2 className={styles.h2}>Software Engineer</h2>
+          <h2 className={styles.h2}>Software Engineer - Open For Hire</h2>
         </div>
         <p className={styles.description}>
           Experienced Frontend Developer making reliable, high-performance, and user-friendly Web Applications

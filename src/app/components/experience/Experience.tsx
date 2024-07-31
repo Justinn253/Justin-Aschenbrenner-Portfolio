@@ -17,9 +17,9 @@ const Experience = () => {
         <div className={styles.experienceTitle}>
           Software Developer 1
         </div>
-        <div className={styles.experienceDescription}>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi beatae delectus dolorum magni unde eaque perspiciatis cupiditate, labore officiis id, earum natus nesciunt corrupti perferendis fugit necessitatibus officia libero tenetur.
-        </div>
+        <p className={styles.experienceDescription}>
+          Working primarily as a Frontend Developer using Angular and some JSP. Responsible for helping modernize MyAccounts and ePay. Assisting with maintenance and additional features for Timos and legacy ePay.
+        </p>
         <div className={styles.experienceSkills}>
           <div className={styles.experienceSkillItem}>
             Angular

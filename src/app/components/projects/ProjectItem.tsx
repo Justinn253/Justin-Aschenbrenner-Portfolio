@@ -27,7 +27,7 @@ const ProjectStyles = ({job, time, title, desc, skills}: any) => {
           {title}
         </div>
         <div className={styles.experienceDescription}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolor nesciunt consequatur! Corporis distinctio vitae vel, commodi soluta aliquam quas atque? Sequi dicta tenetur ex ullam quidem sapiente placeat explicabo.
+          {desc}
         </div>
         <div className={styles.experienceSkills}>
           {skills.map((item: string) => {

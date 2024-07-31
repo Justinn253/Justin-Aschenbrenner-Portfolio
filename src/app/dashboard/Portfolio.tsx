@@ -30,19 +30,23 @@ const Portfolio = () => {
         </section>
         <div></div>
         <section className={styles.right}>
-          <About/>
-          <div className={styles.sectional}>
-            <span className={styles.sb}></span> Experience <span className={styles.sb}></span>
+          <div id='aboutSection'>
+            <About/>
+            <div className={styles.sectional}>
+              <span className={styles.sb}></span> Experience <span className={styles.sb}></span>
+            </div>
           </div>
-          <Experience/>
-          <div className={styles.sectional}>
-            <span className={styles.sb}></span> Projects <span className={styles.sb}></span>
+
+          <div id='experienceSection'>
+            <Experience/>
+            <div className={styles.sectional}>
+              <span className={styles.sb}></span> Projects <span className={styles.sb}></span>
+            </div>
           </div>
-          <Projects/>
-          <div className={styles.sectional}>
-            <span className={styles.sb}></span> Education <span className={styles.sb}></span>
+
+          <div id='projectsSection'>
+            <Projects/>
           </div>
-          <Education/>
         </section>
       </main>
 

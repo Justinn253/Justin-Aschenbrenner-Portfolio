@@ -23,6 +23,7 @@
   overflow-y: auto;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  border-left: 1px solid var(--component-color-2);
 }
 .right::-webkit-scrollbar {
   display: none;
@@ -33,7 +34,7 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  margin-top: 3rem;
+  margin-top: 1rem;
   padding: 0 2rem;
 }
 

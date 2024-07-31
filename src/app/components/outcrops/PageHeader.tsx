@@ -28,10 +28,10 @@ const PageHeader = () => {
       </div>
 
       <nav className={styles.headerNav}>
-        <HeaderButton name='About Me'></HeaderButton>
-        <HeaderButton name='Experience'></HeaderButton>
-        <HeaderButton name='Projects'></HeaderButton>
-        <HeaderButton name='Education'></HeaderButton>
+        <HeaderButton name='About Me' reference='#aboutSection'></HeaderButton>
+        <HeaderButton name='Experience' reference='#experienceSection'></HeaderButton>
+        <HeaderButton name='Projects' reference='#projectsSection'></HeaderButton>
+        <HeaderButton name='Education' reference='#educationSection'></HeaderButton>
       </nav>
     </nav>
   )

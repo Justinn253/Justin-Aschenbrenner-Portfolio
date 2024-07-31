@@ -1,17 +1,13 @@
 import { useState } from 'react';
 import styles from './Button.module.css';
 
-const HeaderButton = ({name}: any) => {
-  const [test, setTest] = useState('test');
+const HeaderButton = ({name, reference}: any) => {
 
-  const scrollTo = () => {
-    console.log('Scrolled to ' + name)
-  }
 
   return (
-    <div className={styles.headerButton} title={`Scroll to ` + name} onClick={scrollTo}>
+    <a className={styles.headerButton} title={`Scroll to ` + name} href={reference}>
       {name}
-    </div>
+    </a>
   )
 }
 

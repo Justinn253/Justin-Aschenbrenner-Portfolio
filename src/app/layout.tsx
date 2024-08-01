@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Portfolio from "./dashboard/Portfolio";
+import PageHeader from "./components/outcrops/PageHeader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Portfolio></Portfolio>
+        <header>
+          <PageHeader/>
+        </header>
+
+        <main className="main">
+          <Portfolio></Portfolio>
+        </main>
+        
+        <footer>
+
+        </footer>
       </body>
     </html>
   );

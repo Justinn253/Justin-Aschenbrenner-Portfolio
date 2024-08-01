@@ -13,13 +13,14 @@ const Portfolio = () => {
 
   return (
     <>
-      <header>
-        <PageHeader/>
-      </header>
-
-      <main className={styles.main}>
+      <div className={styles.main}>
         <section className={styles.left}>
           <div>
+            <section className={styles.pageWarning}>
+              <p className={styles.warningContent}>
+                This page is under development. Working for 1080p resolutions.
+              </p>
+            </section>
             <section>
               <Overview/>
             </section>
@@ -48,11 +49,7 @@ const Portfolio = () => {
             <Projects/>
           </div>
         </section>
-      </main>
-
-      <footer>
-
-      </footer>
+      </div>
     </>
   )
 }

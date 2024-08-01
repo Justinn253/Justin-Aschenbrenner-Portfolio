@@ -3,9 +3,9 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
-  max-height: 800px;
-  margin-top: 6rem;
-  height: 100%;
+  overflow-y: hidden;
+  min-height: 1180px;
+  margin-top: 5rem;
   margin-left: 12rem;
   margin-right: 12rem;
 }
@@ -13,7 +13,7 @@
 .left {
   max-width: 45%;
   min-width: 360px;
-  max-height: 800px;
+  max-height: 820px;
 }
 
 .right {
@@ -42,4 +42,31 @@
   flex-grow: 1;
   height: 0;
   border-bottom: 1px solid var(--component-color-2);
+}
+
+.pageWarning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.warningContent {
+  text-align: center;
+  font-size: 14px;
+  padding: 4px 10px;
+  background-color: var(--warning-red);
+  border-radius: 16px;
+}
+
+@media (max-width: 900px) {
+  .main {
+    overflow-y: hidden;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .right {
+    border-left: none;
+    max-height: none;
+  }
 }

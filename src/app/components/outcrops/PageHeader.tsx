@@ -1,4 +1,5 @@
-import { useRef } from 'react';
+'use client'
+
 import HeaderButton from '../buttons/HeaderButton'
 import styles from './Outcrops.module.css'
 import {BsEnvelopeFill, BsFillTelephoneFill} from 'react-icons/bs'
